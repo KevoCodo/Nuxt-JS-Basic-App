@@ -1,0 +1,20 @@
+{
+  "name": "nuxt_js_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
