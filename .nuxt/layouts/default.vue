@@ -3,19 +3,19 @@
   <AppHeader />
   <Nuxt />
 </div>
+  
 </template>
 
 <script>
 import AppHeader from '../../components/AppHeader';
 
 export default {
-  components: {
-    AppHeader
-  }
+components:{
+  AppHeader
+}
 }
 </script>
 
 <style>
 
 </style>
-

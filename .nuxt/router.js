@@ -4,6 +4,7 @@ import { interopDefault } from './utils'
 
 const _65c61496 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */))
 const _082364f6 = () => interopDefault(import('..\\pages\\Jokes\\index.vue' /* webpackChunkName: "pages_Jokes_index" */))
+const _dc72aa96 = () => interopDefault(import('..\\pages\\Jokes\\_id\\index.vue' /* webpackChunkName: "pages_Jokes__id_index" */))
 const _f504214a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
@@ -88,6 +89,10 @@ export function createRouter() {
       path: "/Jokes",
       component: _082364f6,
       name: "Jokes"
+    }, {
+      path: "/Jokes/:id",
+      component: _dc72aa96,
+      name: "Jokes-id"
     }, {
       path: "/",
       component: _f504214a,

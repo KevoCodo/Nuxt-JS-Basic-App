@@ -1,8 +1,10 @@
 <template>
     <div>
+      <nuxt-link to='/jokes'>Back To Jokes
         <h2>{{ joke }}</h2>
-        <hr>
+        <hr />
         <small>Joke ID: {{ $route.params.id }}</small>
+      </nuxt-link>
     </div>
 </template>
 
@@ -13,7 +15,7 @@ export default {
     data(){
         return{
             joke:{}
-        }
+        };
     },
     async created(){
     const config = {
